@@ -63,12 +63,12 @@ export default {
   height: 105px;
   padding-top: 15px;
   transform: scale(8);
-  -webkit-transform: scale3d(8);
+  -webkit-transform: scale(8);
   text-align: center;
 }
 .thefooter button {
   transform: scale(1);
-  -webkit-transform: scale3d(1);
+  -webkit-transform: scale(1);
 }
 .theheader {
   position: fixed;
@@ -80,13 +80,13 @@ export default {
   border-bottom: 1px solid #ccc;
 
   transform: scale(5);
-  -webkit-transform: scale3d(5);
+  -webkit-transform: scale(5);
   text-align: center;
 }
 .theheader div,
 .theheader img {
   transform: scale(1);
-  -webkit-transform: scale3d(1);
+  -webkit-transform: scale(1);
 }
 .container {
   margin: 0 auto;
