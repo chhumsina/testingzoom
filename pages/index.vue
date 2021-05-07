@@ -62,12 +62,12 @@ export default {
   background: #fff;
   height: 105px;
   padding-top: 15px;
-  transform: scale(8);
+  transform: scale(8, 8);
   -webkit-transform: scale(8, 8);
   text-align: center;
 }
 .thefooter button {
-  transform: scale(1);
+  transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
 }
 .theheader {
@@ -79,13 +79,13 @@ export default {
   padding: 10px;
   border-bottom: 1px solid #ccc;
 
-  transform: scale(5);
+  transform: scale(5, 5);
   -webkit-transform: scale(5, 5);
   text-align: center;
 }
 .theheader div,
 .theheader img {
-  transform: scale(1);
+  transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
 }
 .container {
