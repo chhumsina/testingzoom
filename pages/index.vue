@@ -151,6 +151,7 @@
         bottom: 0;
         width: 100%;
         border-top: 1px solid #ccc;
+        background: #fff;
         height: 56px;
         padding-top: 15px;
       "
