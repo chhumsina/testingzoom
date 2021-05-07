@@ -80,6 +80,7 @@ export default {
   border-bottom: 1px solid #ccc;
 
   transform: scale(5);
+  -webkit-transform: scale3d(5);
   text-align: center;
 }
 .theheader div,
