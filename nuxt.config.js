@@ -16,7 +16,7 @@ export default {
       {
         name: 'viewport',
         content:
-          'width=device-width, initial-scale=1.0, maximum-scale=0, user-scalable=no, shrink-to-fit=no',
+          'width=device-width, initial-scale=1.0, maximum-scale=0, user-scalable=no, shrink-to-fit=yes',
       },
       { hid: 'description', name: 'description', content: '' },
     ],
