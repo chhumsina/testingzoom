@@ -19,7 +19,7 @@
       <div>Sina testing</div>
     </div>
     <pinch-zoom>
-      <div class="invoice-box" style="background: #fff">
+      <div class="invoice-box scaled" style="background: #fff">
         <div style="overflow: hidden">
           <table class="table">
             <tr class="titles">
@@ -166,6 +166,9 @@ export default {}
 </script>
 
 <style>
+.scaled {
+  transform: scale(0.5);
+}
 .pinch-zoom-wrapper {
   background: #fff !important;
 }
