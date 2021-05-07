@@ -1,27 +1,13 @@
 <template>
   <div class="">
     <!-- <zoom></zoom> -->
-    <div
-      style="
-        position: fixed;
-        top: 155px;
-        z-index: 11;
-        width: 100%;
-        background: #fff;
-        padding: 10px;
-        border-bottom: 1px solid #ccc;
-
-        transform: scale(5);
-        text-align: center;
-      "
-    >
+    <div class="theheader">
       <img
         src="https://www.ababank.com/typo3conf/ext/boxmodel/Resources/Private/Templates/ABA/images/aba-web-top-logo.png"
         width="30"
         height="30"
-        style="transform: scale(1)"
       />
-      <div style="transform: scale(1)">Sina testing</div>
+      <div>Sina testing</div>
     </div>
     <br />
     <br />
@@ -52,20 +38,8 @@
     <pinch-zoom>
       <zoom></zoom>
     </pinch-zoom>
-    <div
-      style="
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        border-top: 1px solid #ccc;
-        background: #fff;
-        height: 105px;
-        padding-top: 15px;
-        transform: scale(8);
-        text-align: center;
-      "
-    >
-      <button style="transform: scale(1)">Pay now</button>
+    <div class="thefooter">
+      <button>Pay now</button>
     </div>
   </div>
 </template>
@@ -80,6 +54,39 @@ export default {
 </script>
 
 <style>
+.thefooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background: #fff;
+  height: 105px;
+  padding-top: 15px;
+  transform: scale(8);
+  -webkit-transform: scale3d(8);
+  text-align: center;
+}
+.thefooter button {
+  transform: scale(1);
+  -webkit-transform: scale3d(1);
+}
+.theheader {
+  position: fixed;
+  top: 155px;
+  z-index: 11;
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+
+  transform: scale(5);
+  text-align: center;
+}
+.theheader div,
+.theheader img {
+  transform: scale(1);
+  -webkit-transform: scale3d(1);
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
