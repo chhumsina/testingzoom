@@ -1,5 +1,5 @@
 <template>
-  <div class="invoice-box" style="background: #fff">
+  <div class="invoice-box" style="background: #fff; width: 1200px">
     <div style="overflow: hidden">
       <table class="table">
         <tr class="titles">
