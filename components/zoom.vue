@@ -1,5 +1,5 @@
 <template>
-  <div class="invoice-box scaled" style="background: #fff">
+  <div class="invoice-box" style="background: #fff">
     <div style="overflow: hidden">
       <table class="table">
         <tr class="titles">
@@ -128,7 +128,7 @@
 
 <style>
 .scaled {
-  /* transform: scale(0.3); */
+  transform: scale(0.3);
 }
 .pinch-zoom-wrapper {
   /* background: #fff !important; */
